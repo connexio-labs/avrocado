@@ -1,0 +1,10 @@
+{
+  "namespace": "com.technekes",
+  "type": "record",
+  "name": "GenericMessage",
+  "fields": [
+    { "name": "from", "type": "string", "default": "" },
+    { "name": "to", "type": "string", "default": "" },
+    { "name": "message", "type": ["null", "string"] }
+  ]
+}
