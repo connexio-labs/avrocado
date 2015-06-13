@@ -4,7 +4,7 @@ Wraps the Java avro.jar with a more straightforward API.
 
 ## Installation
 
-Because this library is a wrapper around the avro.jar it must be run with JRuby. Use the ruby installer (ie. [ruby-build](https://github.com/sstephenson/ruby-build) of your choice before continuing.
+Because this library is a wrapper around the avro.jar it must be run with JRuby. Use the ruby installer (ie. [ruby-build](https://github.com/sstephenson/ruby-build)) of your choice before continuing.
 
 Add this line to your application's Gemfile:
 
