@@ -1,5 +1,7 @@
 # Avrocado
 
+[![Build Status](https://travis-ci.org/connexio-labs/avrocado.svg?branch=master)](https://travis-ci.org/connexio-labs/avrocado)
+
 Wraps the Java avro.jar with a more straightforward API.
 
 ## Installation
