@@ -13,7 +13,7 @@ module Java
 end
 
 module Avrocado
-  EXAMPLE_SCHEMA_PATH='./config/example-schema.avsc'
+  EXAMPLE_SCHEMA_PATH = './config/example-schema.avsc'
 
   include_package 'org.apache.avro.io'
 
