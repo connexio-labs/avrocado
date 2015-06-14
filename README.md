@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/connexio-labs/avrocado.svg?branch=master)](https://travis-ci.org/connexio-labs/avrocado)
 [![Code Climate](https://codeclimate.com/github/connexio-labs/avrocado/badges/gpa.svg)](https://codeclimate.com/github/connexio-labs/avrocado)
+[![Coverage Status](https://coveralls.io/repos/connexio-labs/avrocado/badge.svg)](https://coveralls.io/r/connexio-labs/avrocado)
 
 Wraps the Java avro.jar with a more straightforward API.
 
