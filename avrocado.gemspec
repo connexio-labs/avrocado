@@ -6,8 +6,8 @@ require 'avrocado/version'
 Gem::Specification.new do |spec|
   spec.name          = 'avrocado'
   spec.version       = Avrocado::VERSION
-  spec.authors       = ['John Allen']
-  spec.email         = ['john.allen@technekes.com']
+  spec.authors       = ['John Allen', 'Jack A Ross']
+  spec.email         = ['john.allen@technekes.com', 'jack.ross@technekes.com']
 
   spec.summary       = 'JRuby based Avro library'
   spec.description   = <<-DESCRIPTION
