@@ -1,18 +1,30 @@
 module Avrocado
   class Deserializer
-    attr_reader :schema, :message
+    attr_reader :schema
 
-    def initialize(message, schema = Schema.parse)
+    def initialize(schema)
+      @schema = schema
+    end
+
+    def self.deserialize(message, schema)
+      new(schema).deserialize(message)
+    end
+
+    def deserialize(message)
+      Avrocado::Decoder.new(message, schema).decoded
+    end
+  end
+
+  class Decoder
+    attr_reader :message, :schema
+
+    def initialize(message, schema)
       @message = message
       @schema  = schema
     end
 
-    def self.deserialize(message)
-      new(message).deserialize
-    end
-
-    def deserialize
-      JSON.parse(reader.read(nil, decoder).to_s)
+    def decoded
+      JSON.parse reader.read(nil, decoder).to_s
     end
 
     private
