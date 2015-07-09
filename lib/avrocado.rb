@@ -1,8 +1,8 @@
 require 'java'
 require 'json'
-require './vendor/java/jackson-core-asl'
-require './vendor/java/jackson-mapper-asl'
-require './vendor/java/avro'
+require_relative '../vendor/java/jackson-core-asl'
+require_relative '../vendor/java/jackson-mapper-asl'
+require_relative '../vendor/java/avro'
 
 require 'avrocado/schema'
 require 'avrocado/serializer'
