@@ -19,7 +19,7 @@ module Avrocado
     attr_reader :message, :schema
 
     def initialize(message, schema)
-      @message = message
+      @message = message.is_a?(String) ? message.to_java_bytes : message
       @schema  = schema
     end
 
